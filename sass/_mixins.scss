@@ -1,0 +1,7 @@
+@mixin preFix($prop, $val) {
+    -webkite-#{$prop} : $val;
+    -moz-#{$prop} : $val;
+    -ms-#{$prop} : $val;
+    -o-#{$prop} : $val;
+
+}
